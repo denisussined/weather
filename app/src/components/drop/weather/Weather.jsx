@@ -1,13 +1,7 @@
 import { Box, Divider, TextField, Typography } from "@mui/material";
 import { thunder } from "images";
 
-const Weather = ({
-  temperature = 8,
-  clouds = 23,
-  location = "Ukraine, Kyiv",
-  day = "Monday",
-  time = "12:45",
-}) => {
+const Weather = ({ temperature, clouds, location, day, time }) => {
   return (
     <Box>
       <Box padding={"12px 16px 0"}>

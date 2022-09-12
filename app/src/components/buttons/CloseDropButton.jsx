@@ -1,9 +1,9 @@
 import { CloseRounded } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 
-const CloseDropButton = ({ handler }) => {
+const CloseDropButton = ({ closeDrop }) => {
   return (
-    <IconButton size={"large"} color={"secondary"} onClick={handler}>
+    <IconButton size={"large"} color={"secondary"} onClick={closeDrop}>
       <CloseRounded />
     </IconButton>
   );

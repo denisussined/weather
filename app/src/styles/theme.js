@@ -23,7 +23,6 @@ export const theme = createTheme({
     custom: {
       yellow: yellow[700],
       blue: blue[600],
-
       lightRed: red[300],
       lightBlue: blue[300],
       lightGrey: grey[200],

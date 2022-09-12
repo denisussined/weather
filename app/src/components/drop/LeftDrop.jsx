@@ -1,6 +1,6 @@
 import { Drawer, Toolbar } from "@mui/material";
+import { CloseDropButton } from "components/buttons";
 import Weather from "./weather/Weather";
-import CloseDropButton from "../buttons/CloseDropButton";
 
 const LeftDrop = () => {
   return (

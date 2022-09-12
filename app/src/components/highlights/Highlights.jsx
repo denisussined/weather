@@ -1,11 +1,11 @@
-import CardWrapper from "./cards/CardWrapper";
+import { Box, Card, CardContent, Typography, Grid } from "@mui/material";
+import HighlightsCard from "./HighlightsCard";
 import UVIndex from "./cards/UVIndex";
 import WindStatus from "./cards/WindStatus";
 import Visibility from "./cards/Visibility";
 import SunriseSunset from "./cards/SunriseSunset";
 import Humidity from "./cards/Humidity";
 import Temperature from "./cards/Temperature";
-import { Box, Card, CardContent, Typography, Grid } from "@mui/material";
 
 const Highlights = () => {
   return (
@@ -19,24 +19,24 @@ const Highlights = () => {
         spacing={2}
         columns={{ xxs: 1, xs: 2, sm: 3, md: 2, lg: 3 }}
       >
-        <CardWrapper>
+        <HighlightsCard>
           <UVIndex />
-        </CardWrapper>
-        <CardWrapper>
+        </HighlightsCard>
+        <HighlightsCard>
           <WindStatus />
-        </CardWrapper>
-        <CardWrapper>
+        </HighlightsCard>
+        <HighlightsCard>
           <SunriseSunset />
-        </CardWrapper>
-        <CardWrapper>
+        </HighlightsCard>
+        <HighlightsCard>
           <Humidity />
-        </CardWrapper>
-        <CardWrapper>
+        </HighlightsCard>
+        <HighlightsCard>
           <Visibility />
-        </CardWrapper>
-        <CardWrapper>
+        </HighlightsCard>
+        <HighlightsCard>
           <Temperature />
-        </CardWrapper>
+        </HighlightsCard>
       </Grid>
       <Box py={2}>
         <Card variant={"outlined"} sx={{ height: "200px", borderRadius: 3 }}>

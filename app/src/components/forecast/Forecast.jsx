@@ -1,8 +1,6 @@
 import { Box, Toolbar } from "@mui/material";
+import { ChangeForecastButton } from "components/buttons";
 import ForecastCard from "./ForecastCard";
-import ChangeForecastButton from "../buttons/ChangeForecastButton";
-
-const days = [1, 2, 3, 4, 5];
 
 const Forecast = () => {
   return (
@@ -24,9 +22,11 @@ const Forecast = () => {
           },
         }}
       >
-        {days.map(() => (
-          <ForecastCard />
-        ))}
+        <ForecastCard />
+        <ForecastCard />
+        <ForecastCard />
+        <ForecastCard />
+        <ForecastCard />
       </Box>
     </>
   );

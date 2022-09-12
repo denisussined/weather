@@ -1,7 +1,7 @@
 import { Button } from "@mui/material";
 import { KeyboardArrowLeftRounded } from "@mui/icons-material";
 
-const OpenDropButton = ({ handler }) => {
+const OpenDropButton = ({ openDrop }) => {
   return (
     <Button
       variant={"contained"}
@@ -9,7 +9,7 @@ const OpenDropButton = ({ handler }) => {
       color={"secondary"}
       startIcon={<KeyboardArrowLeftRounded />}
       sx={{ display: { md: "none" } }}
-      onClick={handler}
+      onClick={openDrop}
     >
       NOW
     </Button>

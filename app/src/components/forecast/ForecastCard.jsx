@@ -1,12 +1,6 @@
 import { Card, CardContent, Typography } from "@mui/material";
-import { cloudyNight2 } from "images";
 
-const ForecastCard = ({
-  day = "Monday",
-  image = cloudyNight2,
-  temperatureMin = 5,
-  temperatureMax = 8,
-}) => {
+const ForecastCard = ({ day, image, temperatureMin, temperatureMax }) => {
   return (
     <Card
       variant={"outlined"}

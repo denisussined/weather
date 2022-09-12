@@ -1,9 +1,9 @@
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
-import { theme } from "./styles/theme";
-import LeftDrop from "./components/drop/LeftDrop";
-import Header from "./components/header/Header";
-import Forecast from "./components/forecast/Forecast";
-import Highlights from "./components/highlights/Highlights";
+import { theme } from "styles/theme";
+import LeftDrop from "components/drop/LeftDrop";
+import Header from "components/header/Header";
+import Forecast from "components/forecast/Forecast";
+import Highlights from "components/highlights/Highlights";
 
 const App = () => {
   return (

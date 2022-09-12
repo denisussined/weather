@@ -1,17 +1,18 @@
 import { Button, ButtonGroup } from "@mui/material";
+import { forecast } from "utils/variables";
 
-const ChangeForecastButton = ({ forecastType = "today", changeType, sx }) => {
+const ChangeForecastButton = ({ forecastType, changeType, sx }) => {
   return (
     <ButtonGroup color={"secondary"} size={"small"} sx={sx}>
       <Button
-        variant={forecastType === "today" ? "outlined" : "contained"}
-        onClick={() => changeType("today")}
+        variant={forecastType === forecast.today ? "outlined" : "contained"}
+        onClick={() => changeType(forecast.today)}
       >
         TODAY
       </Button>
       <Button
-        variant={forecastType === "week" ? "outlined" : "contained"}
-        onClick={() => changeType("week")}
+        variant={forecastType === forecast.week ? "outlined" : "contained"}
+        onClick={() => changeType(forecast.week)}
       >
         WEEK
       </Button>

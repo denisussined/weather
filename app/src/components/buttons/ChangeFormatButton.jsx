@@ -1,17 +1,24 @@
 import { Button, ButtonGroup } from "@mui/material";
+import { temperature } from "utils/variables";
 
-const ChangeFormatButton = ({ format = "c", changeFormat }) => {
+const ChangeFormatButton = ({ temperatureFormat, changeFormat }) => {
   return (
     <ButtonGroup color={"secondary"} size={"small"}>
       <Button
-        variant={format === "c" ? "outlined" : "contained"}
-        onClick={() => changeFormat("c")}
+        variant={
+          temperatureFormat === temperature.celsius ? "outlined" : "contained"
+        }
+        onClick={() => changeFormat(temperature.celsius)}
       >
         C
       </Button>
       <Button
-        variant={format === "f" ? "outlined" : "contained"}
-        onClick={() => changeFormat("f")}
+        variant={
+          temperatureFormat === temperature.fahrenheit
+            ? "outlined"
+            : "contained"
+        }
+        onClick={() => changeFormat(temperature.fahrenheit)}
       >
         F
       </Button>

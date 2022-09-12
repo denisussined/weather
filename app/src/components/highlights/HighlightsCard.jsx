@@ -1,6 +1,6 @@
 import { Card, CardContent, Grid } from "@mui/material";
 
-const CardWrapper = ({ children }) => {
+const HighlightsCard = ({ children }) => {
   return (
     <Grid item xxs={1}>
       <Card
@@ -27,4 +27,4 @@ const CardWrapper = ({ children }) => {
   );
 };
 
-export default CardWrapper;
+export default HighlightsCard;

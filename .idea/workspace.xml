@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2270302-a68b-4615-b219-cf3c482ffab6" name="Changes" comment="DS/Initial commit">
+    <list default="true" id="1067f9b3-e4ac-43d9-a8a9-dab5ffba97c1" name="Changes" comment="DS/Task/app">
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/buttons/ChangeForecastButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/buttons/ChangeForecastButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/buttons/ChangeFormatButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/buttons/ChangeFormatButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/buttons/CloseDropButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/buttons/CloseDropButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/buttons/OpenDropButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/buttons/OpenDropButton.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/drop/LeftDrop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/drop/LeftDrop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/drop/weather/Weather.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/drop/weather/Weather.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/forecast/Forecast.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/forecast/Forecast.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/forecast/ForecastCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/forecast/ForecastCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/highlights/Highlights.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/highlights/Highlights.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/highlights/cards/CardWrapper.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/highlights/HighlightsCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/styles/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/styles/theme.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,92 +25,67 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/app/package.json" />
-  </component>
-  <component name="ProjectId" id="2E4mdNPvgxj7isv1G7IvMs0Ubym" />
+  <component name="ProjectId" id="2Ea1ENfJr53GKq38zzV6jZ6dSsc" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/denis/WebstormProjects/react/weather",
+    "last_opened_file_path": "C:/Users/denis/WebstormProjects/react/matrix_builder_animated",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
+    "nodejs_package_manager_path": "yarn",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\denis\\WebstormProjects\\react\\weather\\app\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.javascript.linters.eslint",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\denis\WebstormProjects\react\weather\app\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\denis\WebstormProjects\react\weather\app\src" />
-      <recent name="C:\Users\denis\WebstormProjects\react\weather\app\src\components\layout" />
-      <recent name="C:\Users\denis\WebstormProjects\react\weather\app\src\components\main" />
-      <recent name="C:\Users\denis\WebstormProjects\react\weather\app" />
+      <recent name="C:\Users\denis\WebstormProjects\react\weather\app\src\components\highlights" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="a2270302-a68b-4615-b219-cf3c482ffab6" name="Changes" comment="" />
-      <created>1661863316213</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1661863316213</updated>
-      <workItem from="1661863317499" duration="4518000" />
-      <workItem from="1661927283911" duration="72692000" />
-      <workItem from="1662290897095" duration="66375000" />
-      <workItem from="1662536264675" duration="376000" />
-      <workItem from="1662538154012" duration="1242000" />
-    </task>
-    <task id="LOCAL-00001" summary="test">
-      <created>1662535881425</created>
+    <task id="LOCAL-00001" summary="DS/Task/app">
+      <created>1662724042463</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1662535881425</updated>
+      <updated>1662724042464</updated>
     </task>
-    <task id="LOCAL-00002" summary="DS/Initial commit">
-      <created>1662538461009</created>
+    <task id="LOCAL-00002" summary="DS/Task/app">
+      <created>1662724725306</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1662538461009</updated>
+      <updated>1662724725306</updated>
     </task>
-    <task id="LOCAL-00003" summary="DS/Initial commit">
-      <created>1662538612853</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1662538612853</updated>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1067f9b3-e4ac-43d9-a8a9-dab5ffba97c1" name="Changes" comment="DS/Task/app" />
+      <created>1662818778695</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662818778695</updated>
+      <workItem from="1662818780665" duration="1546000" />
+      <workItem from="1662886716174" duration="3320000" />
+      <workItem from="1662960485486" duration="1635000" />
+      <workItem from="1662982170394" duration="5670000" />
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,28 +96,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="images" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
-    <MESSAGE value="DS/Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="DS/Initial commit" />
+    <MESSAGE value="DS/Task/app" />
+    <option name="LAST_COMMIT_MESSAGE" value="DS/Task/app" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
